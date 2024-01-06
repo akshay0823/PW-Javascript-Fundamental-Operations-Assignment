@@ -1,0 +1,23 @@
+Question 3: List and describe the five primitive data types in Javascript
+
+Number:
+
+Represents numeric values, including integers and floating-point numbers.
+Examples: 10, 3.14, -7.
+String:
+
+Represents textual data enclosed in single or double quotes.
+Examples: "Hello", 'JavaScript', "123".
+Boolean:
+
+Represents a logical value indicating true or false.
+Examples: true, false.
+Undefined:
+
+Represents a variable that has been declared but has not been assigned a value.
+Example: let x; (Variable x exists but doesn’t have a value yet).
+Null:
+
+Represents the intentional absence of any value or a "null" value.
+Example: let y = null; (Variable y explicitly set to null).
+These primitive data types are immutable, meaning their values cannot be changed. Additionally, they are compared by value, which means when comparing two primitive data types, JavaScript checks if their values are the same.

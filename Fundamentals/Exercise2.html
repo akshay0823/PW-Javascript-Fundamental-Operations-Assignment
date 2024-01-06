@@ -1,0 +1,37 @@
+<!-- JavaScript and HTML serve different purposes in web development, and understanding their differences is crucial: -->
+
+<!-- Purpose: JavaScript is a scripting language used to add interactivity, dynamic behavior, and logic to web pages.
+Usage Scenarios:
+Client-Side Interactivity: Used to create dynamic content, handle user interactions (form validations, event handling), and manipulate the DOM (Document Object Model).
+AJAX (Asynchronous JavaScript and XML): Enables asynchronous communication with the server without refreshing the entire page, allowing for dynamic content updates.
+Front-End Frameworks: Used with frameworks like React, Angular, or Vue.js to build complex single-page applications (SPAs) with reusable components. -->
+
+<!-- HTML (HyperText Markup Language):
+
+Purpose: HTML is a markup language used for structuring and presenting content on the web.
+Usage Scenarios:
+Defining Structure: Used to create the basic structure of web pages by defining elements like headings, paragraphs, lists, and links.
+Semantic Markup: Specifies the meaning and purpose of content elements (e.g., <header>, <nav>, <footer>) for accessibility and SEO.
+Embedding Content: Includes media files, images, videos, and other resources using HTML tags. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise-2</title>
+  </head>
+  <body>
+    <button onclick="myFunction()">Click Me</button>
+    <p id="demo"></p>
+    <br />
+    <br />
+    <p>This is a paragraph describing the content.</p>
+
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Hello, JavaScript!";
+      }
+    </script>
+  </body>
+</html>
